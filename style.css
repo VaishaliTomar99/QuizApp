@@ -1,0 +1,21 @@
+/* Fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .fade-in {
+    animation: fadeIn 0.4s ease-in-out;
+  }
+/* Correct Answer Style */
+.correct {
+    background-color: #a3e635 !important; /* lime */
+    color: #1a202c;
+}
+
+/* Incorrect Answer Style */
+.wrong {
+    background-color: #f87171 !important; /* red */
+    color: white;
+}
+  
